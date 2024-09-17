@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/background.jpg");
+    background-attachment: fixed;
+}
+
+.list{
+    font-size: 40px;
+}
+
+.logos{
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: lightblue;
+    height: 100px;
+}
+ul.menu > li > a{
+    display: block;
+    padding: 10px 10px;
+    margin: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul.menu > li{
+    min-width: 120px;
+}
+ul.menu > li:first-child{
+    text-align: left;
+}
+ul.menu > li:last-child{
+    margin-left: auto;
+}
+ul.menu > li > a:hover{
+    background-color: darkblue;
+    color: antiquewhite;
+}
+
+.subcontent {
+    display: none !important;
+    position: absolute;
+    font-weight: bold;
+    
+}
+
+.sub:hover .subcontent{
+    display: block !important;
+    margin:  10px 0;
+    width: 250px;
+    height: 140px;
+    font-size: 20px;
+}
+
+.center{
+    margin-left: 38%;
+}
+
+div.jobs{
+    font-size: 100%;
+    border-radius: 15px;
+}
+
+/*.item{
+    border-collapse: collapse;
+    overflow: auto;
+    align-items: center;
+    font-size: 30px;
+    margin: 100px 0;
+    text-align: center;
+}*/
+.jobs .job{
+    border: 1.5px solid darkblue;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    background: lightblue;
+    height: 200px;
+}
+ul.jobmenu {
+    list-style-type: none;
+    padding: 5px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    background: #CFF;  
+    display: flex;
+}
+
+ul.jobmenu > li{
+    border-right: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+ul.jobmenu > li > a{
+    text-decoration: none;
+}
+
+.jobmenu > li:last-child{
+    border: none;
+}
+
+.hover-menu:hover .menu{
+    display: block;
+}
+
+.hover-menu div{
+    width: 10%;
+    margin: 10px;
+    padding: 0;
+}
+
+.logos img{
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    border-radius: 60%;
+}
+
+section{
+    margin: auto 20% auto 20%;
+}
